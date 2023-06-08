@@ -155,7 +155,7 @@ def test__find_chocolatey_programdata(mock_false, mock_true, chocolatey_path_pd)
         assert chocolatey.__context__["chocolatey._path"] == expected
 
 
- def test__find_choco_programdata(mock_false, mock_true, choco_path_pd):
+ def test__find_choco_programdataChoco(mock_false, mock_true, choco_path_pd):
     """
     Test _find_chocolatey when found in ProgramData and named choco.exe
     """
